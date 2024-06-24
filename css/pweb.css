@@ -1,0 +1,29 @@
+.commonContent{
+	margin: 40px 0;
+}
+
+.commonContent p{
+    color: #000;
+    font-size: 18px;
+    font-family: Nunito, sans-serif;
+    line-height: 1.4;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+
+
+.common__divider{
+	background: fff;
+    height: 3px;
+	margin: 40px 0;
+	width: 100%;
+}
+
+
+.functions__wrapper-single{
+	margin: 40px 0;
+}
+
+.functions__wrapper-single .functions__list{
+	max-width: none;
+}
