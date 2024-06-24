@@ -1,3 +1,7 @@
+.innerPageWrapper{
+    padding-top: 100px;
+}
+
 .commonContent{
 	margin: 40px 0;
 }
@@ -11,9 +15,14 @@
     margin: 0 0 20px;
 }
 
+.commonContent img{
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
 
 .common__divider{
-	background: fff;
+	background: #fff;
     height: 3px;
 	margin: 40px 0;
 	width: 100%;
@@ -26,4 +35,25 @@
 
 .functions__wrapper-single .functions__list{
 	max-width: none;
+}
+
+.footer__copyright p{
+    margin: 0 0 10px;
+}
+
+.footer__copyright a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .innerPageWrapper{
+        padding-top: 40px;
+    }
+
+    .innerPageWrapper .title_h2{
+        font-size: 26px;
+    }
+
 }
